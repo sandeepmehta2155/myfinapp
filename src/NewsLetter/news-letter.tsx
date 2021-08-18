@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { TreeImg } from "./tree";
 
 export const NewsLetter = ({ score } : any) => {
