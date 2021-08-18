@@ -4,6 +4,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from "react-router-dom";
 
+export { HeaderComponent } from "./Header-Components/header"
+export { HomePage } from "./Home-page/home-page"
+export { QuestionPage } from "./Question-Page/question-page"
+export { NewsLetter } from "./NewsLetter/news-letter";
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
