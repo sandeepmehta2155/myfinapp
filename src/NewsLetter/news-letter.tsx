@@ -2,10 +2,10 @@ import { useState } from "react";
 import { TreeImg } from "./tree";
 
 export const NewsLetter = ({ score } : any) => {
-  const [name, setName] = useState<string | undefined>();
-  const [age, setAge] = useState<number | undefined>();
-  const [email, setEmail] = useState<string | undefined>();
-  const [gender, setGender] = useState<string>();
+//   const [name, setName] = useState<string | undefined>();
+//   const [age, setAge] = useState<number | undefined>();
+//   const [email, setEmail] = useState<string | undefined>();
+//   const [gender, setGender] = useState<string>();
   return (
     <>
       {score.score >= 3 && <h1> Hurray! you made it up! </h1>}
@@ -64,28 +64,28 @@ export const NewsLetter = ({ score } : any) => {
           <input
             placeholder="first name and last name"
             type="text"
-            onChange={(e) => setName(e.target.value)}
+            // onChange={(e) => setName(e.target.value)}
           />{" "}
           <br />
           <label>Age : </label>
           <input
             placeholder="age in years"
             type="number"
-            onChange={(e) => setAge(e.target.valueAsNumber)}
+            // onChange={(e) => setAge(e.target.valueAsNumber)}
           />{" "}
           <br />
           <label>E-mail : </label>
           <input
             placeholder="email"
             type="email"
-            onChange={(e) => setEmail(e.target.value)}
+            // onChange={(e) => setEmail(e.target.value)}
           />
           <br />
           <label>Gender : </label>
           <input
             placeholder="male / female / transgender"
             type="text"
-            onChange={(e) => setGender(e.target.value)}
+            // onChange={(e) => setGender(e.target.value)}
           />
           <br />
           <button> Submit </button>
